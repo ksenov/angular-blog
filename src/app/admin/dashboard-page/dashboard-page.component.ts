@@ -13,6 +13,7 @@ export class DashboardPageComponent implements OnInit {
 
   posts: Post[] = []
   pSub: Subscription
+  searchStr = ''
 
   constructor(
     private postsService: PostsService
